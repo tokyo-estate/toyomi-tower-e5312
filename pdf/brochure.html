@@ -75,6 +75,22 @@ img{display:block;width:100%;height:100%;object-fit:cover}
 .tbl th,.tbl td{border-top:1px solid var(--line);padding:1.6mm 1.5mm;text-align:left;vertical-align:top}
 .tbl th{width:26mm;color:var(--gold);font-weight:500;letter-spacing:.06em;white-space:nowrap}
 .tbl b{font-size:9.5pt}
+
+/* E5312 オーナー変更版 */
+.owc{list-style:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:2.5mm;margin-top:4mm}
+.owc li{border:1px solid var(--line);background:#fbf8f1;padding:2.6mm 3mm}
+.owc .v{font-size:14pt;font-weight:300;color:#8a6d2f;line-height:1.1}.owc .v small{font-size:7pt}
+.owc .k{font-size:7.4pt;font-weight:600;margin-top:1.2mm}.owc .d{font-size:6.5pt;color:var(--mute);line-height:1.5;margin-top:.6mm}
+.cl{list-style:none;border-top:1px solid #cdbf9f}
+.cl li{display:flex;justify-content:space-between;align-items:baseline;padding:1.6mm .5mm;border-bottom:1px solid var(--line);font-size:7.4pt;color:var(--mute)}
+.cl li b{font-size:12pt;font-weight:300;color:var(--ink)}.cl li b small{font-size:6.5pt}
+.cl li.hl{background:linear-gradient(90deg,#e2c98f,#c9a961);color:#1a1a1a;border:0;margin-top:1.5mm;padding:2mm 2.5mm;font-weight:600}
+.cl li.hl b{font-size:16pt;font-weight:600}
+.ttl3{font-size:7.6pt;letter-spacing:.16em;color:#6b5a32;font-weight:600;margin:4mm 0 2mm}
+.opt{display:grid;grid-template-columns:1fr 1fr;gap:3mm 6mm}
+.opt h3{font-size:7.6pt;color:#6b5a32;border-bottom:1px solid #cdbf9f;padding-bottom:1mm;margin-bottom:1mm;font-weight:600;letter-spacing:.08em}
+.opt ul{list-style:none}.opt li{font-size:6.9pt;line-height:1.5;padding:.5mm 0 .5mm 3mm;position:relative;color:var(--ink)}
+.opt li::before{content:"";position:absolute;left:0;top:2.1mm;width:1.4mm;height:1.4mm;background:var(--gold)}
 </style>
 </head>
 <body>
@@ -86,15 +102,15 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <p class="en">The Toyomi Tower Marine &amp; Sky</p>
     <p class="num">5312<small>53F</small></p>
     <h1 data-i18n="t003">ザ 豊海タワー マリン＆スカイ</h1>
-    <p class="tag" data-i18n="t206">最上階53階、東京タワーと<br class="sp">浜離宮を望む3LDK</p>
+    <p class="tag" data-i18n="t206">最上階53階・天井高 約3.0m、<br class="sp">東京タワーを望むLDK約28帖</p>
     <ul class="chips">
-      <li data-i18n="t004">東ウイング 53階</li><li data-i18n="t005">西向き</li><li>3LDK＋WIC＋SIC＋WIP</li><li data-i18n="t006">面積 112.72㎡</li><li data-i18n="t007">LDK 約22.3帖</li><li data-i18n="t008">2027年8月 引渡予定</li>
+      <li data-i18n="t004">東ウイング 53階</li><li data-i18n="t005">西向き</li><li>2LDK＋WIC＋SIC＋WIP</li><li data-i18n="t006">面積 112.72㎡</li><li data-i18n="t007">LDK 約28帖</li><li data-i18n="t008">2027年8月末以降 引渡予定</li>
     </ul>
     <p class="price" data-i18n="t009"><span>販売価格</span><b>4億4,800万円</b><small>（税込）</small></p>
     <ul class="keys">
       <li><div class="v">53<small>F</small></div><div class="k">East Wing</div></li>
       <li><div class="v">112.72<small>㎡</small></div><div class="k" data-i18n="t011">契約面積</div></li>
-      <li><div class="v">3<small>LDK</small></div><div class="k">Plan</div></li>
+      <li><div class="v">2<small>LDK</small></div><div class="k">Plan</div></li>
       <li><div class="v" data-i18n="t012">西<small>向き</small></div><div class="k">Direction</div></li>
       <li><div class="v" data-i18n="t014">2,046<small>戸</small></div><div class="k">Residences</div></li>
       <li><div class="v" data-i18n="t016">10<small>分</small></div><div class="k" data-i18n="t018">勝どき駅 徒歩</div></li>
@@ -105,15 +121,15 @@ img{display:block;width:100%;height:100%;object-fit:cover}
 <!-- 01 Floor Plan -->
 <section class="page">
   <p class="no">01 — Floor Plan</p>
-  <h2 data-i18n="t026">東京タワーを望む、<br>約22.3帖のLDK</h2>
+  <h2 data-i18n="t026">東京タワーを望む、<br>約28帖のLDK</h2>
   <div class="ph" style="height:138mm;background:#fff;border:1px solid var(--line)"><img src="../img/u00_plan3d.jpg" style="object-fit:contain;background:#fff" alt=""></div>
-  <p class="cap"><span class="t" data-i18n="t024">3D間取図</span> <span data-i18n="t025">家具はイメージです</span></p>
+  <p class="cap"><span class="t" data-i18n="t024">3D間取図</span> <span data-i18n="t025">変更後の間取り・家具はイメージです</span></p>
   <div class="big" data-i18n="t027">112.72<small>㎡（契約面積）</small></div>
   <p class="note" style="text-indent:0;padding-left:0;margin-top:1mm" data-i18n="t029">専有面積（壁芯）111.22㎡<br class="sp">＋トランクルーム1.50㎡</p>
   <ul class="chips">
-    <li data-i18n="t031">LDK 22.3帖</li><li data-i18n="t032">キッチン 3.6帖</li><li data-i18n="t033">主寝室 10.0帖</li><li data-i18n="t034">洋室 6.2帖×2</li><li data-i18n="t035">WIC 2.5帖</li><li data-i18n="t036">SIC 1.9帖</li><li data-i18n="t037">WIP 2.3帖</li><li data-i18n="t038">浴室 1822</li><li data-i18n="t040">バルコニー 21.94㎡</li><li data-i18n="t041">トランクルーム 1.50㎡</li>
+    <li data-i18n="t031">LDK 約28帖</li><li data-i18n="t032">キッチン 3.6帖</li><li data-i18n="t033">主寝室 10.0帖</li><li data-i18n="t034">洋室 6.2帖</li><li data-i18n="t035">WIC 2.5帖</li><li data-i18n="t036">SIC 1.9帖</li><li data-i18n="t037">WIP 2.3帖</li><li data-i18n="t038">浴室 1822</li><li data-i18n="o060">天井高 約3.0m（最高 約3.15m）</li><li data-i18n="t040">バルコニー 21.94㎡</li><li data-i18n="t041">トランクルーム 1.50㎡</li>
   </ul>
-  <p class="lead" data-i18n="t030">西に面したワイドな窓が、<br class="sp">約22.3帖のリビングダイニングを<br class="sp">明るく満たします。<br>主寝室には約2.5帖の<br class="sp">ウォークインクローゼット、<br class="sp">キッチン脇には約2.3帖の<br class="sp">ウォークインパントリー、<br class="sp">玄関には約1.9帖の<br class="sp">シューズインクローゼット。<br>LDKと3つの居室が<br class="sp">すべてバルコニー側に並ぶ、<br class="sp">ワイドスパンの間取りです。</p>
+  <p class="lead" data-i18n="t030">分譲時の特別変更（オーナーズスタイリング）で<br class="sp">元の洋室との間仕切りを撤去し、<br class="sp">西面のハイサッシがひと続きに並ぶ<br class="sp">約28帖のLDKに。<br>キッチンは移設して独立した<br class="sp">アイランド型、天井高は約3.0m、<br class="sp">中央の折上げ天井は最高 約3.15m。<br>主寝室には約2.5帖のWIC、<br class="sp">キッチン脇に約2.3帖のWIP、<br class="sp">玄関に約1.9帖のSIC。<br>旧居室側にクローゼットと扉を残しており、<br class="sp">間仕切りの追加で3LDKにも<br class="sp">変更できます（別途工事）。</p>
   <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>01</span></div>
 </section>
 
@@ -129,9 +145,64 @@ img{display:block;width:100%;height:100%;object-fit:cover}
   <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>02</span></div>
 </section>
 
+<!-- 02b Living (owner) -->
+<section class="page">
+  <p class="no">03 — Living Dining</p>
+  <h2 data-i18n="o001">天井高 約3.0m、<br>東京タワーを望む約28帖</h2>
+  <p class="lead" data-i18n="o002">リビング・ダイニング・キッチンが<br class="sp">ひと続きになった大空間。<br>西面のハイサッシの向こうに、<br class="sp">東京タワーと浜離宮。<br>夜は折上げ天井のやわらかな光と<br class="sp">都心の夜景が、<br class="sp">特別な時間を演出します。</p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/u02_ldk_ai_day.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="o003">リビング 昼（完成イメージCG）</span><span class="d" data-i18n="o004">東京タワーを望むリビング・家具はイメージです</span></p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/u01_ldk_ai_bridge.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="o005">リビング 夜（AI生成イメージ）</span><span class="d" data-i18n="o006">ライトアップした東京タワーと折上げ天井の間接照明</span></p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>03</span></div>
+</section>
+
+<!-- 02c Owner's Styling -->
+<section class="page paper2">
+  <p class="no">04 — Owner’s Styling</p>
+  <h2 data-i18n="o010">細部までこだわった、<br>分譲時の特別変更</h2>
+  <p class="lead" data-i18n="o011">分譲時のオーナーズスタイリングで、<br class="sp">間取りと仕様を特別に変更済み。<br>アイランドキッチン、折上げ天井、<br class="sp">ひと続きの約28帖のLDKなど、<br class="sp">この住戸だけの仕様です。</p>
+  <div class="ph" style="height:84mm;margin-top:4mm"><img src="../img/u03_kitchen_island.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="o012">アイランドキッチン（完成イメージCG）</span><span class="d" data-i18n="o013">移設して独立・レンジフードは天井まで・カウンター高さ 約90cm</span></p>
+  <div class="grid g2" style="margin-top:4mm"><div><div class="ph" style="height:46mm"><img src="../img/u04_ceiling_day.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="o014">折上げ天井（完成イメージCG）</span><span class="d" data-i18n="o015">キッチンからLDKを望む・LDK 約3.0m、中央は最高 約3.15m</span></p></div><div><div class="ph" style="height:46mm"><img src="../img/u05_ceiling_night.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="o016">折上げ天井 夜（AI生成イメージ）</span><span class="d" data-i18n="o017">間接照明はイメージ（リフォーム工事・価格に含まれません）</span></p></div></div>
+  <ul class="owc"><li><div class="v" data-i18n="o029">約28<small>帖</small></div><div class="k" data-i18n="o030">ひと続きのLDK</div><div class="d" data-i18n="o031">リビング・ダイニング・キッチンがひと続きの大空間</div></li><li><div class="v">Island</div><div class="k" data-i18n="o032">アイランドキッチン</div><div class="d" data-i18n="o033">キッチンを移設して独立。開放感とデザイン性を高め、レンジフードは天井まで</div></li><li><div class="v">3.15<small>m</small></div><div class="k" data-i18n="o034">折上げ天井</div><div class="d" data-i18n="o035">LDK 約3.0m、中央は最高 約3.15m。一般階は約2.55〜2.6m</div></li><li><div class="v">High</div><div class="k" data-i18n="o036">ハイサッシ</div><div class="d" data-i18n="o037">西面に並ぶ窓から、東京タワーと浜離宮を一望</div></li><li><div class="v">3LDK</div><div class="k" data-i18n="o038">3LDKに変更可能</div><div class="d" data-i18n="o039">旧居室側にクローゼットと扉を残しており、間仕切りの追加で3LDKに変更できます（別途工事）</div></li><li><div class="v">Bronze</div><div class="k" data-i18n="o040">リビングの扉</div><div class="d" data-i18n="o041">120㎡以上タイプと同仕様のフロアヒンジ。ブロンズの押し棒（UNION）</div></li></ul>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>04</span></div>
+</section>
+
+<!-- 02d Option List -->
+<section class="page">
+  <p class="no">05 — Ceiling &amp; Options</p>
+  <h2 data-i18n="o020">階ごとのリビング・ダイニング天井高</h2>
+  <div class="grid g2" style="align-items:center;gap:6mm;margin-top:2mm">
+    <ul class="cl"><li><span data-i18n="o021">4〜37階</span><b>2.55<small>m</small></b></li><li><span data-i18n="o022">38〜50階</span><b>2.6<small>m</small></b></li><li><span data-i18n="o023">51・52階 プレミアムプラン</span><b>2.7<small>m</small></b></li><li><span data-i18n="o024">53階（最上階）</span><b>3.0<small>m</small></b></li><li class="hl"><span data-i18n="o025">本住戸｜LDK中央の折上げ天井</span><b><small data-i18n="o026">最高 約</small> 3.15<small>m</small></b></li></ul>
+    <div style="border:1px solid var(--line);background:#fff;padding:2mm"><svg viewBox="0 0 640 300" role="img" aria-label="section" style="width:100%;height:auto;display:block;font-family:'Helvetica Neue',Arial,sans-serif">
+<rect x="0" y="0" width="640" height="300" fill="#fbf8f1"/>
+<path d="M40 70 H200 L215 52 H445 L460 70 H520 V108 H600" fill="none" stroke="#1b1b1b" stroke-width="3"/>
+<path d="M215 52 H445" fill="none" stroke="#c9a961" stroke-width="4"/>
+<line x1="40" y1="250" x2="600" y2="250" stroke="#1b1b1b" stroke-width="3"/>
+<line x1="40" y1="70" x2="40" y2="250" stroke="#7aa7c7" stroke-width="5"/>
+<text x="48" y="160" font-size="13" fill="#4a6f8a" transform="rotate(-90 48 160)" text-anchor="middle">WEST / VIEW</text>
+<g stroke="#8a6d2f" stroke-width="1.4"><line x1="110" y1="74" x2="110" y2="246"/><line x1="330" y1="56" x2="330" y2="246"/><line x1="560" y1="112" x2="560" y2="246"/></g>
+<g fill="#8a6d2f"><path d="M110 74 l-5 10 h10z"/><path d="M110 246 l-5 -10 h10z"/><path d="M330 56 l-6 12 h12z"/><path d="M330 246 l-6 -12 h12z"/><path d="M560 112 l-5 10 h10z"/><path d="M560 246 l-5 -10 h10z"/></g>
+<text x="120" y="164" font-size="16" fill="#1b1b1b">≈3.0m</text>
+<text x="342" y="150" font-size="26" font-weight="600" fill="#8a6d2f">≈3.15m</text>
+<text x="482" y="190" font-size="15" fill="#1b1b1b">≈2.75m</text>
+<rect x="500" y="208" width="44" height="42" fill="#e9dfc8" stroke="#8a6d2f"/><text x="522" y="272" font-size="12" fill="#6d675d" text-anchor="middle">ISLAND</text>
+<g transform="translate(250 176)" fill="#9b9488"><circle cx="0" cy="0" r="7"/><rect x="-6" y="9" width="12" height="40" rx="5"/><rect x="-5" y="49" width="4" height="25"/><rect x="1" y="49" width="4" height="25"/></g>
+<text x="250" y="272" font-size="11" fill="#6d675d" text-anchor="middle">170cm</text>
+<text x="40" y="292" font-size="11" fill="#6d675d">LDK</text><text x="600" y="292" font-size="11" fill="#6d675d" text-anchor="end">KITCHEN</text>
+</svg><p class="cap"><span class="t" data-i18n="o028">LDKの断面（概略）</span></p></div>
+  </div>
+  <p class="note" style="margin-top:2mm" data-i18n="o027">※他階は分譲時の公式サイトの表示（一部下がり天井あり・住戸により異なります）。断面図は変更図面をもとに作成した概略です。</p>
+  <p class="ttl3" data-i18n="o050">オプション・オーナーズスタイリング一覧</p>
+  <div class="opt"><div><h3 data-i18n="o051">カラー・仕様セレクト</h3><ul><li data-i18n="p01">カラーセレクト：Air（エアー）</li><li data-i18n="p02">キッチンカウンター高さ：約90cm</li><li data-i18n="p03">キッチンパネル：デザインパネル</li><li data-i18n="p04">洗面化粧台カウンター高さ：約85cm</li><li data-i18n="p05">洗濯機上吊戸：あり</li><li data-i18n="p06">洗面化粧台水栓：ハンスグローエ社製</li><li data-i18n="p07">トイレリモコン：スティックリモコン</li><li data-i18n="p08">浴室ガラス扉：透明</li></ul></div><div><h3 data-i18n="o052">オプション</h3><ul><li data-i18n="p11">カップボード下台 ハイカウンタータイプ（シーザーストーン天板）</li><li data-i18n="p12">玄関：電池錠</li><li data-i18n="p13">洗面室：三面鏡下のガラスタイル</li><li data-i18n="p14">トイレ：アクセントクロス</li></ul></div><div><h3 data-i18n="o053">LDK</h3><ul><li data-i18n="p21">元洋室（約6.2帖）との間仕切り壁を撤去しLDを拡張</li><li data-i18n="p22">キッチンの変更・移設（カウンター幅 約2,750mm・腰壁設置・設備含む）</li><li data-i18n="p23">レンジフードを天井までの仕様に変更</li><li data-i18n="p24">キッチンの下がり天井の範囲を変更（天井高 約2,750mm）</li><li data-i18n="p25">折上げ天井（天井高 約3,150mm）</li><li data-i18n="p26">バルコニー側の天井カセットエアコンを6.3kWに容量アップ</li><li data-i18n="p27">天井カセットエアコン2台を元洋室側へ約300mm移設</li><li data-i18n="p28">LDと元洋室のカーテンボックスを連結</li><li data-i18n="p29">リビング扉：フロアヒンジ・押し棒（UNION・ブロンズ）・廊下側開き</li><li data-i18n="p30">キッチン側の引戸をアウトセットに変更（動線幅 約850mm）</li><li data-i18n="p31">床下地の合板を2重に（キッチンを含む）</li><li data-i18n="p32">ダウンライト3灯・スプリンクラー6か所を移設</li><li data-i18n="p33">ストレージ撤去・給湯リモコン移設、スイッチ・コンセント類の移設</li></ul></div><div><h3 data-i18n="o054">元洋室（拡張部分）・廊下・居室</h3><ul><li data-i18n="p41">元洋室：天井高を約3,000mmに変更・床下地の合板を2重に</li><li data-i18n="p42">元洋室：クローゼットを幅 約900mmに変更し移設</li><li data-i18n="p43">元洋室：壁掛けエアコン想定位置の中止（スリーブは残置）・コンセント移設</li><li data-i18n="p44">廊下：ニッチ（奥行 約200mm）・床タイル範囲の変更</li><li data-i18n="p45">洋室・主寝室・ウォークインパントリー：2口コンセント増設</li></ul></div></div>
+  <p class="note" style="margin-top:3mm" data-i18n="o055">※オーナーズスタイリングの変更覚書添付明細・図面（2025年6月27日時点）をもとに作成。仕様・品番は変更となる場合があります。図面と現況が異なる場合は現況を優先します。</p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>05</span></div>
+</section>
+
 <!-- 04 Entrance & Residence -->
 <section class="page dark">
-  <p class="no">03 — Entrance &amp; Residence</p>
+  <p class="no">06 — Entrance &amp; Residence</p>
   <h2 data-i18n="t054">水辺に立ち上がる、<br>2棟のタワー</h2>
   <p class="lead" data-i18n="t055">浜離宮の緑の先に、金色の帯をまとった2棟が空へのびる。波と緑をかたどった3階建の基壇部が両棟を結び、3階のエントランスホールではコンシェルジュが迎えます。</p>
   <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/r01b_ext_day.jpg" alt=""></div>
@@ -144,12 +215,12 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <div><div class="ph" style="height:46mm"><img src="../img/p22_ev_hall_corridor.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t066">内廊下</span><span class="d" data-i18n="t341">リーフ柄のカーペットが続く廊下（実写）</span></p></div>
     <div><div class="ph" style="height:46mm"><img src="../img/r04_entrance_night.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t068">エントランス 夜景</span></p></div>
   </div>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>03</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>06</span></div>
 </section>
 
 <!-- 05 Common Space 1 -->
 <section class="page">
-  <p class="no">04 — Common Space</p>
+  <p class="no">07 — Common Space</p>
   <h2 data-i18n="t074">ホテルのような、<br>ラグジュアリーな共用空間</h2>
   <p class="lead" data-i18n="t075">東京タワーを望む51階のスカイスパ、2層吹抜けのスカイラウンジ、ゲストルーム、ラウンジ、テラス。暮らしの延長に、上質なもてなしの時間を。</p>
   <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/p17_skylounge_panorama.jpg" alt=""></div>
@@ -160,12 +231,12 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <div><div class="ph" style="height:50mm"><img src="../img/p09_skylounge_booth.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t086">51・52F スカイラウンジ</span><span class="d" data-i18n="t312">ネイビーのレザーソファブース（実写）</span></p></div>
     <div><div class="ph" style="height:50mm"><img src="../img/c02_sky_spa.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t094">51F スカイスパゲスト</span></p></div>
   </div>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>04</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>07</span></div>
 </section>
 
 <!-- 06 Common Space 2 -->
 <section class="page dark">
-  <p class="no">05 — Common Space</p>
+  <p class="no">08 — Common Space</p>
   <ul class="floors">
     <li><div class="f">51・52F</div><div class="n"><span data-i18n="t076">スカイラウンジ</span><span data-i18n="t077">スカイパーティーラウンジ</span><span data-i18n="t078">スカイスパゲスト</span></div><div class="d" data-i18n="t079">2層吹抜けのラウンジ、オープンデッキ、サウナ付きゲストルーム</div></li>
     <li><div class="f">3F</div><div class="n"><span data-i18n="t080">ウエスト／イーストラウンジ</span><span data-i18n="t081">オープンテラス・ライブラリー</span><span data-i18n="x009">フィットネス・ゴルフレンジ</span></div><div class="d" data-i18n="t082">個室ブース、プレイルーム、5つのゲストルーム、コンシェルジュ、コンビニ</div></li>
@@ -185,12 +256,12 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <div><div class="ph" style="height:46mm"><img src="../img/c13_guest_glamping.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t110">3F ゲストルーム</span> <span data-i18n="t113">海辺のキャンプ</span></p></div>
     <div><div class="ph" style="height:46mm"><img src="../img/r10_lawn_plaza.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t204">3F 芝生広場</span> <span data-i18n="t205">エントランス前のグリーン</span></p></div>
   </div>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>05</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>08</span></div>
 </section>
 
 <!-- 07 Location & Tsukiji -->
 <section class="page">
-  <p class="no">06 — Location</p>
+  <p class="no">09 — Location</p>
   <h2 data-i18n="t114">勝どき駅徒歩10分、<br>海と向き合う豊海</h2>
   <p class="lead" data-i18n="t115">銀座まで約1.8km。<br class="sp">隣には小学校と運動公園、<br class="sp">対岸には浜離宮と築地。<br>都心を手の内にしながら、<br class="sp">水辺の開放感を日常に。<br>中央区、豊海のアドレスです。</p>
   <div class="ph" style="height:86mm;margin-top:4mm"><img src="../img/l08_aerial_night.jpg" alt=""></div>
@@ -207,12 +278,12 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <div><div class="ph" style="height:38mm"><img src="../img/f01_tsukiji_main.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t132">築地地区まちづくり事業 完成予想CG</span> <span data-i18n="t133">現地から徒歩13分・約980m（AI生成イメージ）</span></p></div>
     <div><div class="ph" style="height:38mm"><img src="../img/f02_tsukiji_stadium.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t134">マルチスタジアム</span> <span data-i18n="t135">約5万人収容・屋内全天候型（AI生成イメージ）</span></p></div>
   </div>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>06</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>09</span></div>
 </section>
 
 <!-- 08 Access -->
 <section class="page dark">
-  <p class="no">07 — Access</p>
+  <p class="no">10 — Access</p>
   <h2 data-i18n="t144">「勝どき」駅から</h2>
   <p class="lead" data-i18n="t145">都営大江戸線で汐留・六本木へ直通。<br>徒歩3分のバス停、<br class="sp">徒歩6分の東京BRTも、<br class="sp">日々の選択肢に。</p>
   <ul class="times">
@@ -230,22 +301,22 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <div><div class="ph" style="height:86mm;background:#fff"><img src="../img/a01_bus_map.jpg" style="object-fit:contain;background:#fff" alt=""></div><p class="cap"><span class="t" data-i18n="t150">バス路線</span><span class="d" data-i18n="t151">銀座・東京駅方面</span></p></div>
   </div>
   <p class="note" style="margin-top:4mm" data-i18n="t147">※電車の所要時間は「勝どき」駅からの通勤時のもので、乗り換え・待ち時間を含みます（出典：公式サイト）。バスは徒歩3分の「山九本社前」等のバス停から平日7:30〜9:00着の所要時間（Yahoo!路線情報、2024年8月時点）。東京BRT「勝どきBRT」停留所は徒歩6分。車は環状2号線で築地・新橋・虎ノ門へ。</p>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>07</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>10</span></div>
 </section>
 
 <!-- 09 Outline -->
 <section class="page paper2">
-  <p class="no">08 — Outline</p>
+  <p class="no">11 — Outline</p>
   <h2 data-i18n="t152">物件概要</h2>
   <div class="grid" style="grid-template-columns:92mm 1fr;gap:5mm;align-items:start;margin-top:1mm">
     <div>
       <div class="ph" style="height:70mm;background:#fff;border:1px solid var(--line)"><img src="../img/u00_plan2d.jpg" style="object-fit:contain;background:#fff" alt=""></div>
-      <p class="cap"><span class="t" data-i18n="t153">間取図</span><span class="d" data-i18n="t154">3LDK＋WIC＋SIC＋WIP（E-111Awタイプ）</span></p>
+      <p class="cap"><span class="t" data-i18n="t153">間取図</span><span class="d" data-i18n="t154">2LDK＋WIC＋SIC＋WIP（E-111Awタイプ・分譲時の特別変更後）</span></p>
       <table class="tbl" style="margin-top:3mm">
         <tr><th data-i18n="t175">駐車場</th><td data-i18n="t176">敷地内 機械式650台・平面18台（抽選・別途契約）</td></tr>
         <tr><th data-i18n="t177">構造・規模</th><td data-i18n="t178">鉄筋コンクリート造一部鉄骨造 地上53階地下1階建（制震・制振構造）</td></tr>
         <tr><th data-i18n="t179">総戸数</th><td data-i18n="t180">2,046戸</td></tr>
-        <tr><th data-i18n="t181">竣工・引渡</th><td data-i18n="t182">2026年11月下旬 竣工予定 ／ 2027年8月 引渡予定</td></tr>
+        <tr><th data-i18n="t181">竣工・引渡</th><td data-i18n="t182">2026年11月下旬 竣工予定 ／ 2027年8月末以降 引渡予定</td></tr>
         <tr><th data-i18n="t183">管理費</th><td data-i18n="t184">45,240円／月</td></tr>
         <tr><th data-i18n="t185">修繕積立金</th><td data-i18n="t186">19,660円／月</td></tr>
         <tr><th data-i18n="t187">その他費用</th><td data-i18n="t188">インターネット等使用料 715円／月、修繕積立基金 1,966,000円（引渡時）</td></tr>
@@ -260,7 +331,7 @@ img{display:block;width:100%;height:100%;object-fit:cover}
       <tr><th data-i18n="t159">所在地</th><td data-i18n="t160">東京都中央区豊海町41番（地番）</td></tr>
       <tr><th data-i18n="t161">交通</th><td data-i18n="t162">都営大江戸線「勝どき」駅 徒歩10分</td></tr>
       <tr><th data-i18n="t163">所在階 / 向き</th><td data-i18n="t164">東ウイング 53階 ／ 西向き</td></tr>
-      <tr><th data-i18n="t165">間取り</th><td data-i18n="t166">3LDK＋WIC＋SIC＋WIP（E-111Awタイプ）</td></tr>
+      <tr><th data-i18n="t165">間取り</th><td data-i18n="t166">2LDK＋WIC＋SIC＋WIP（E-111Awタイプ・特別変更済み）<br>※間仕切りの追加で3LDKに変更可能（別途工事）</td></tr><tr><th data-i18n="o061">天井高</th><td data-i18n="o062">LDK 約3.0m・折上げ部 最高 約3.15m（キッチン 約2.75m）</td></tr><tr><th data-i18n="o063">特別変更</th><td data-i18n="o064">分譲時にオーナーズスタイリング実施済み（アイランドキッチン・折上げ天井ほか）</td></tr>
       <tr><th data-i18n="t011">契約面積</th><td data-i18n="t167">112.72㎡<br>※専有面積（壁芯）111.22㎡＋トランクルーム1.50㎡</td></tr>
       <tr><th data-i18n="t168">バルコニー</th><td>21.94㎡</td></tr>
       <tr><th data-i18n="t169">付帯</th><td data-i18n="t170">トランクルーム 1.50㎡</td></tr>
@@ -270,11 +341,11 @@ img{display:block;width:100%;height:100%;object-fit:cover}
   <div style="margin-top:4mm">
     <p class="note" data-i18n="t195">※本物件は2026年11月現在、竣工前です。掲載の外観・共用部・周辺の画像は完成予想CGで、実際とは異なる場合があります。眺望の画像は、本住戸の位置を想定した分譲事業主の眺望CGをもとにAIで写実化したイメージで、実際の眺望とは異なります。</p>
     <p class="note" data-i18n="t196">※管理費・修繕積立金等は分譲時の管理費等一覧表（予定）に基づく月額です。正確な金額は重要事項説明書にてご確認ください。</p>
-    <p class="note" data-i18n="t197">※眺望の画像、3D間取図の家具、外観・浜離宮・スカイラウンジ・築地再開発の一部画像、外観・共用部の動画はAI生成（完成予想CGをもとに制作）で、家具・内装・外装の色調はイメージです。</p>
+    <p class="note" data-i18n="t197">※室内・眺望の画像、3D間取図の家具、外観・浜離宮・スカイラウンジ・築地再開発の一部画像、外観・共用部の動画はAI生成または完成イメージCG（完成予想CGをもとに制作）で、家具・内装・外装の色調はイメージです。家具・照明・折上げ天井の間接照明（リフォーム工事）は価格に含まれません。</p>
     <p class="note" data-i18n="t307">※共用部の実写写真は竣工前に撮影したもので、色調補正・工事養生の除去・空と窓外の眺望の差し替え・AIによる高解像度化等の画像処理を行っています。スカイパーティーラウンジの窓外の眺望は合成です。スカイラウンジのタイムラプスは実写をもとにAIで生成した動画です。</p>
     <p class="note" data-i18n="t202">※掲載内容は2026年10月現在のものです。共用施設・サービスの内容は管理規約等に従い、変更となる場合があります。家具・調度品は販売価格に含まれません。</p>
   </div>
-  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>08</span></div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — E5312</span><span>11</span></div>
 </section>
 
 <!-- 裏表紙 -->
@@ -284,7 +355,7 @@ img{display:block;width:100%;height:100%;object-fit:cover}
     <p class="en">The Toyomi Tower Marine &amp; Sky — E5312</p>
     <h2 style="font-size:22pt;margin-top:3mm" data-i18n="t198">東京タワーと浜離宮を、<br>最上階の窓辺から。</h2>
     <ul class="chips">
-      <li data-i18n="t004">東ウイング 53階</li><li data-i18n="t005">西向き</li><li>3LDK＋WIC＋SIC＋WIP</li><li data-i18n="t200">契約面積 112.72㎡</li><li data-i18n="t007">LDK 約22.3帖</li><li data-i18n="t008">2027年8月 引渡予定</li>
+      <li data-i18n="t004">東ウイング 53階</li><li data-i18n="t005">西向き</li><li>2LDK＋WIC＋SIC＋WIP</li><li data-i18n="t200">契約面積 112.72㎡</li><li data-i18n="t007">LDK 約28帖</li><li data-i18n="t008">2027年8月末以降 引渡予定</li>
     </ul>
     <p class="price" data-i18n="t009"><span>販売価格</span><b>4億4,800万円</b><small>（税込）</small></p>
     <p style="font-size:7pt;color:#b9b2a5;margin-top:5mm;letter-spacing:.06em">https://tokyo-estate.github.io/toyomi-tower-e5312/</p>
